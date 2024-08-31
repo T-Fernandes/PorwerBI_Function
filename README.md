@@ -1,8 +1,8 @@
 ## Web Scraping com Power Query
 
-#### Coletando dados de Feriados Nacionais diretamente do site da [ANBIMA](https://www.anbima.com.br/feriados/fer_nacionais/2024.asp).
+ #### 📌 Coletando dados de Feriados Nacionais diretamente do site da [ANBIMA](https://www.anbima.com.br/feriados/fer_nacionais/2024.asp).
 
-Etapa 1 - Esta função é usada para automatizar a obtenção de informações sobre feriados nacionais a partir do site da ANBIMA. Ele permite que o usuário especifique o ano de interesse, e o script baixa e processa a página web correspondente, extraindo a tabela de feriados, promovendo os cabeçalhos e alterando os tipos de dados para facilitar análises futuras.
+**Etapa 1** - Esta função é usada para automatizar a obtenção de informações sobre feriados nacionais a partir do site da ANBIMA. Ele permite que o usuário especifique o ano de interesse, e o script baixa e processa a página web correspondente, extraindo a tabela de feriados, promovendo os cabeçalhos e alterando os tipos de dados para facilitar análises futuras.
 ```
 (Ano as text) =>
 
@@ -27,7 +27,7 @@ in
 ```
 ![image](https://github.com/user-attachments/assets/d0dfc9af-77c8-45b9-8e89-87bb98cf6e13)
 
-Etapa 2 - O site da ANBIMA disponibiliza informações sobre os feriados nacionais brasileiros a partir do ano de 2001. O script abaixo automatiza o processo de coleta desses dados, gerando uma tabela consolidada com todos os feriados nacionais de 2001 até o ano atual. A função previamente criada é utilizada para extrair os dados de cada ano, que são então agregados em uma única tabela com todas as informações dos feriados ao longo dos anos. 
+**Etapa 2** - O site da ANBIMA disponibiliza informações sobre os feriados nacionais brasileiros a partir do ano de 2001. O script abaixo automatiza o processo de coleta desses dados, gerando uma tabela consolidada com todos os feriados nacionais de 2001 até o ano atual. A função previamente criada é utilizada para extrair os dados de cada ano, que são então agregados em uma única tabela com todas as informações dos feriados ao longo dos anos. 
 ```
 let
     AnoInicial = 2001,
@@ -47,7 +47,7 @@ in
 ```
 ![image](https://github.com/user-attachments/assets/d1361f79-08fa-4d52-8de6-bdda5807e048)
 
-Etapa 3 - Após consolidar os dados dos feriados nacionais, podemos criar uma visualização para entender melhor a distribuição dos feriados ao longo do ano. Abaixo está um exemplo de visualização criada no Power BI utilizando os dados coletados:
+**Etapa 3** - Após consolidar os dados dos feriados nacionais, podemos criar uma visualização para entender melhor a distribuição dos feriados ao longo do ano. Abaixo está um exemplo de visualização criada no Power BI utilizando os dados coletados:
 ![image](https://github.com/user-attachments/assets/9d96c29d-8eca-43a9-a7b1-d754c7b741d2)
 
-#### 2 - Coletando dados da Compensação Financeira distribuída aos municípios através do site da [ANM](https://sistemas.anm.gov.br/arrecadacao/extra/Relatorios/distribuicao_cfem_muni.aspx?ano=2022&uf=PA).
+#### 📌 Coletando dados da Compensação Financeira distribuída aos municípios através do site da [ANM](https://sistemas.anm.gov.br/arrecadacao/extra/Relatorios/distribuicao_cfem_muni.aspx?ano=2022&uf=PA).
