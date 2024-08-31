@@ -59,6 +59,7 @@ in
 Após consolidar os dados dos feriados nacionais, podemos criar uma visualização para entender melhor a distribuição dos feriados ao longo do ano. Abaixo está um exemplo de visualização criada no Power BI utilizando os dados coletados:
 ![image](https://github.com/user-attachments/assets/9d96c29d-8eca-43a9-a7b1-d754c7b741d2)
 
+
 #### 📌 Coletando dados da Compensação Financeira distribuída aos municípios através do site da [ANM](https://sistemas.anm.gov.br/arrecadacao/extra/Relatorios/distribuicao_cfem_muni.aspx?ano=2022&uf=PA).
 
 **Objetivo:**
