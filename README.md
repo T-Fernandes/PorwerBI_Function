@@ -33,7 +33,7 @@ let
     AnoInicial = 2001,
     AnoFinal = Date.Year(DateTime.LocalNow()),
 
-    // Gera uma lista de números com o ano de 2001 até o ano atual
+    // Gera uma lista de números do ano de 2001 até o ano atual
     ListaAnos = List.Numbers(AnoInicial, AnoFinal - AnoInicial + 1), 
     
     // Converte a lista em tabela com a coluna "Ano"
