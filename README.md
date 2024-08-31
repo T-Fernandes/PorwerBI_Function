@@ -5,7 +5,7 @@
 **Objetivo:**
 Automatizar a obtenção de informações sobre feriados nacionais brasileiros a partir do site da ANBIMA, permitindo análise e visualização dos dados em Power BI.
 
-**Etapa 1: Definindo uma função para coleta de dados** 
+**Etapa 1: Definindo uma Função para Coleta de Dados** 
 
 Esta função é usada para automatizar a obtenção de informações sobre feriados nacionais a partir do site da ANBIMA. Ele permite que o usuário especifique o ano de interesse, e o script baixa e processa a página web correspondente, extraindo a tabela de feriados, promovendo os cabeçalhos e alterando os tipos de dados para facilitar análises futuras.
 ```
